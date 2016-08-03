@@ -63,12 +63,12 @@ if __name__ == "__main__":
 	import logging
 	import sys
 
-	if len(sys.argv) < 4:
+	if len(sys.argv) < 3:
 		print "Usage: python screenshot_selenium.py source.txt result.txt"
 		sys.exit()
 
-	list = open(sys.argv[2])
-	output = open(sys.argv[3], "w")
+	list = open(sys.argv[1])
+	output = open(sys.argv[2], "w")
 
 	for domain in list:
 		# to prevent load empty line
