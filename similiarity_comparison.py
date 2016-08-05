@@ -57,4 +57,4 @@ if __name__=='__main__':
             output.write(res + "\n")
             output.flush();
 
-    ouput.close()
+    output.close()
