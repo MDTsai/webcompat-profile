@@ -12,9 +12,10 @@ result.txt contains domain name in each line. Put this script with alexa_$INDEX.
 
 ###Parse subdomains
 
+`python alexa_subdomain_parser.py source.txt result.txt`
 `python alexacn_subdomain_parser.py source.txt result.txt`
 
-source.txt contains top domain without protocol in each line. result.txt contains subdomain in each line. Currently support alexa.cn, for China only.
+source.txt contains top domain without protocol in each line. result.txt contains subdomain in each line. First script can get at most 5 subdomains from alexa.com, the second one can get at most 10 subdomains from alexa.cn, for China only.
 
 ###Grab site screenshot
 
