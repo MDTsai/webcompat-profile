@@ -25,6 +25,10 @@ source.txt contains site address without protocol in each line. result.txt conta
 
 Only tested on Mac. Chrome only takes screenshot of visible area, on my retina screen, the screenshot resolution is double. Firefox takes screenshot of all page content. So you need to resize screenshot from Chrome (if necessary) and crop screenshot from Firefox for further comparison.
 
+`python screenshot_android.py -b browser`
+
+Copy from Mike and add Chrome mobile released version and UCMobile in China. urls.txt is required for site source name.
+
 ###Compare screenshot
 
 `python similarity_comparison.py source.txt result.txt`
